@@ -1,1 +1,1 @@
-# registromascota2
+# registro-mascota

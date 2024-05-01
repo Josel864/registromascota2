@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 14;
+}
+header {
+    background-color: white;
+    color: rgb(179, 179, 179);
+    padding: 20px;
+    text-align: center;
+}
+.img-inicio {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.cambio-color:hover{
+    color: orange;
+    cursor: pointer;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+}
+
+.barramenu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: block;
+    line-height: 1;
+    max-width: 800px;
+}
+h2 {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+}
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: left;
+    display: flex;
+}
+.button1 {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 15px;
+}
+.formu {
+    margin: 10px 15px;
+    padding: 15px 50px;
+    float: center;
+    width: 55%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+input[type="submit"],
+input[type="reset"] {
+    width: 50%;
+    background-color: orange;
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
+@media screen and (max-width: 1000px)
+{
+    body {
+        background-color: rgb(255, 255, 204);
+    }
+    nav ul li {
+        display: inline-block;
+    }
+}
